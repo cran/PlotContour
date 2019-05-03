@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+
+import(KernSmooth,MASS)
+
+importFrom("graphics", "contour")
+importFrom("stats", "approx")
